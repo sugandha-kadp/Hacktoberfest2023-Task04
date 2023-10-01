@@ -1,12 +1,12 @@
-public class FactorialCalculator {
+public class FactorialCalculator{
     public static void main(String[] args) {
-        int num = 5;
+        int num = 10; 
         long factorial = 1;
 
-        for (int i = 1; i = num; i++) {
+        for (int i = 1; i <= num; i++) {
             factorial *= i;
         }
 
-        System.out.println("Factorial of " + num1 + " is " + factorial);
+        System.out.println("Factorial of " + num + " is " + factorial);
     }
 }
